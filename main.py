@@ -16,6 +16,10 @@ from data import TranslationDataset, SOS_token, EOS_token, MAX_LENGTH, collate
 
 from model import Encoder, Decoder
 
+n_features = 256
+n_epochs = 40
+batch_size = 64
+skip_training=True
 
 
 def training_loop(encoder,decoder,optimizer,loss_method,trainloader):
@@ -37,7 +41,7 @@ def training_loop(encoder,decoder,optimizer,loss_method,trainloader):
              
 
 
-def main(n_features = 256,n_epochs = 40,batch_size = 64,skip_training=True):
+def main():
 
     device = torch.device('cuda:0')
 
