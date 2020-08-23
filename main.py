@@ -19,7 +19,7 @@ from model import Encoder, Decoder
 n_features = 256
 n_epochs = 40
 batch_size = 64
-skip_training=True
+skip_training=False
 
 
 def training_loop(encoder,decoder,optimizer,loss_method,trainloader):
