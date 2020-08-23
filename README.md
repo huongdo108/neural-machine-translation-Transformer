@@ -74,4 +74,4 @@ During decoding, we need to make sure that when we compute the probability of th
 
 ## Model performance on testset
 
-<img src="https://github.com/huongdo108/neural-machine-translation-Transformer/blob/master/images/model_performance.png" align="centre">
+<img src="https://github.com/huongdo108/neural-machine-translation-Transformer/blob/master/images/model_performance.PNG" align="centre">
